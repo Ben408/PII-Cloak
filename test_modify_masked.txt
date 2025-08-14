@@ -1,0 +1,20 @@
+Page 1
+==================================================
+        CONFIDENTIAL REPORT
+        
+        Client Information:
+        - Name: John Smith
+        - Email: [EMAIL_001]
+        - Phone: ([PHONE_001]
+        - Address: 123 Main Street, Anytown, ST [ZIP_CODE_001]
+        - SSN: [SSN_001]
+        - Credit Card: [CREDIT_CARD_001]
+        - IP Address: [IP_ADDRESS_001]
+        
+        Project Details:
+        This confidential report contains sensitive information that must be protected.
+        All PII should be redacted before sharing with external parties.
+        
+
+
+
