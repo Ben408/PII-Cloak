@@ -32,7 +32,7 @@ Cloak & Style is a comprehensive desktop utility that identifies, masks, and red
 
 - **OS**: Windows 10/11 (64-bit)
 - **RAM**: 8-16 GB recommended
-- **Storage**: 500 MB free space
+- **Storage**: 1500 MB free space
 - **Permissions**: User-level installation (no admin required)
 
 ### First Run
@@ -292,12 +292,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - **PII Masker**: LongTransformer model for entity detection
 - **PySide6**: Modern Qt-based GUI framework
 - **Open Source Community**: Libraries and tools that made this possible
-
-## 📞 Support
-
-- **Documentation**: [Wiki](https://github.com/your-org/cloak-and-style/wiki)
-- **Issues**: [GitHub Issues](https://github.com/your-org/cloak-and-style/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/cloak-and-style/discussions)
 
 ---
 

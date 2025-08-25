@@ -439,7 +439,7 @@ class CloakAndStyleMainWindow(QMainWindow):
                 background-color: #f0f8ff;
             }
         """)
-        self.drop_zone.mousePressEvent = self.browse_files
+        self.drop_zone.mousePressEvent = lambda event: self.browse_files()
         layout.addWidget(self.drop_zone)
         
         # File list

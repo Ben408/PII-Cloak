@@ -112,7 +112,7 @@ class ReportGenerator:
             for result in results:
                 for entity in result.entities_found:
                     writer.writerow([
-                        result.file_info.filename,
+                        os.path.basename(result.file_info.path),
                         entity.entity_type,
                         entity.value,
                         f"{entity.confidence:.3f}",
@@ -162,7 +162,7 @@ class ReportGenerator:
         file_summary = []
         for result in results:
             file_summary.append({
-                'filename': result.file_info.filename,
+                'filename': os.path.basename(result.file_info.path),
                 'file_type': result.file_info.file_type,
                 'file_size': result.file_info.file_size,
                 'entities_found': len(result.entities_found),
