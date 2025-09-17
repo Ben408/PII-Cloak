@@ -1,0 +1,25 @@
+
+CONFIDENTIAL DOCUMENT
+
+Client Information:
+- Name: John Smith
+- Email: john.smith@company.com
+- Phone: (555) 123-4567
+- Address: 456 Oak Avenue, Somewhere, CA 90210
+- SSN: 987-65-4321
+- Credit Card: 5555-4444-3333-2222
+- IP Address: 10.0.0.1
+
+Project Details: This project involves sensitive data processing.
+
+Additional Contacts:
+- Manager: Jane Doe (jane.doe@email.com)
+- Support: support@company.com
+- Emergency: (555) 999-8888
+
+Server Information:
+- Primary Server: 192.168.1.100
+- Backup Server: 172.16.0.50
+- Database: db.company.com
+
+Notes: This document contains confidential information that must be protected.
