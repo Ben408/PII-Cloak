@@ -23,10 +23,9 @@ Cloak & Style is a comprehensive desktop utility that identifies, masks, and red
 
 ### Installation
 
-1. **Download** the latest release from [GitHub Releases](https://github.com/your-org/cloak-and-style/releases)
+1. **Download** the latest release CODE - Download ZIP
 2. **Extract** the ZIP file to a folder
-3. **Run** `install.bat` as a regular user (no admin rights required)
-4. **Launch** from Desktop shortcut or Start Menu
+3. **Run** `start_cloak_and_style.bat'
 
 ### System Requirements
 
@@ -296,3 +295,4 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ---
 
 **Cloak & Style** - Making data privacy elegant and accessible. 🎭✨
+
