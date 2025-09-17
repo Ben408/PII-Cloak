@@ -65,6 +65,9 @@ def download_model(repo: str, target_dir: str, base_path: str) -> bool:
             # Copy all files from the downloaded repository
             for root, dirs, files in os.walk(local_path):
                 for file in files:
+                    if file.startswith('.') or file.startswith('last'):
+                        continue  # Skip hidden files
+                    
                     src_file = os.path.join(root, file)
                     rel_path = os.path.relpath(src_file, local_path)
                     dest_file = os.path.join(target_path, rel_path)
@@ -72,6 +75,13 @@ def download_model(repo: str, target_dir: str, base_path: str) -> bool:
                     # Create subdirectories if needed
                     os.makedirs(os.path.dirname(dest_file), exist_ok=True)
                     shutil.copy2(src_file, dest_file)
+            
+            # Fix the misspelled checkpoint filename
+            misspelled_file = os.path.join(target_path, 'ckeckpoint_0.ckpt')
+            correct_file = os.path.join(target_path, 'checkpoint_0.ckpt')
+            if os.path.exists(misspelled_file):
+                os.rename(misspelled_file, correct_file)
+                print(f"🔧 Renamed ckeckpoint_0.ckpt to checkpoint_0.ckpt")
             
             print(f"📁 Copied all files to {target_dir}")
             return True

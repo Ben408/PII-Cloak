@@ -9,7 +9,7 @@ REM Check if Python 3.11 is available
 REM Check if virtual environment exists
 if not exist "cloak_venv" (
     echo Creating virtual environment with Python 3.11...
-    py -3.11 -m venv cloak_venv
+    py -m venv cloak_venv
     if errorlevel 1 (
         echo ERROR: Failed to create virtual environment
         pause
@@ -59,7 +59,7 @@ if errorlevel 1 (
 
 echo.
 REM Start the application
-echo Starting Cloak & Style PII Data Scrubber...
+echo "Starting Cloak & Style PII Data Scrubber..."
 echo.
 python cloak_and_style_ui_fixed.py
 
