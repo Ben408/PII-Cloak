@@ -1,4 +1,4 @@
-# Cloak & Style - PII Data Scrubber
+# Cloak & Style - PII Data Scrubber v1.0.1
 
 **Professional PII (Personally Identifiable Information) data scrubbing tool for content professionals.**
 
@@ -31,7 +31,7 @@ Cloak & Style is a comprehensive desktop utility that identifies, masks, and red
 
 - **OS**: Windows 10/11 (64-bit)
 - **RAM**: 8-16 GB recommended
-- **Storage**: 1500 MB free space
+- **Storage**: 1500 MB free space (AI models will download on first use and run locally)
 - **Permissions**: User-level installation (no admin required)
 
 ### First Run
@@ -262,7 +262,7 @@ cloak_and_style.exe --in "C:\data" --out "C:\output" --review-queue on
 
 ### Version History
 
-- **v1.0.0**: Initial release with core functionality
+- **v1.0.1**: Initial release with core functionality
 - **Future**: Language packs, OCR support, advanced features
 
 ### Support
@@ -284,7 +284,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 1. **Clone** the repository
 2. **Install** dependencies: `pip install -r requirements.txt`
 3. **Run** tests: `python -m pytest test/`
-4. **Build** executable: `pyinstaller cloak_and_style.spec`
 
 ## 🙏 Acknowledgments
 
@@ -295,4 +294,5 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ---
 
 **Cloak & Style** - Making data privacy elegant and accessible. 🎭✨
+
 
